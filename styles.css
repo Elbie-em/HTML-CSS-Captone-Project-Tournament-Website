@@ -4,11 +4,19 @@
   height: 24px;
   background-color: #343940;
   color: #fff;
-  text-align: right;
   font-family: 'Lato', sans-serif;
 }
 
 .nav-top ul li {
   display: inline;
   margin-right: 15px;
+}
+
+.nav-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 95px;
+  background-color: #fff;
 }
