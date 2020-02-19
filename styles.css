@@ -1,0 +1,14 @@
+
+.nav-top {
+  width: 100%;
+  height: 24px;
+  background-color: #343940;
+  color: #fff;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-top ul li {
+  display: inline;
+  margin-right: 15px;
+}
