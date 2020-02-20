@@ -158,7 +158,7 @@
 .guest-player {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -210,4 +210,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-summary {
+  font-size: 13px;
+  margin-left: 20px;
 }
