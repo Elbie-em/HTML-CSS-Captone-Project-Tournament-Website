@@ -30,6 +30,10 @@
   color: #d3d3d3;
 }
 
+.n-b-inner ul li a:hover {
+  color: #343940;
+}
+
 .nav-logo {
   margin-left: 120px;
   width: 120px;
@@ -62,6 +66,10 @@
 }
 
 .color-cp {
+  color: #ec5241;
+}
+
+#active {
   color: #ec5241;
 }
 
