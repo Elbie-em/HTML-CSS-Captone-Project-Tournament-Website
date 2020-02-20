@@ -148,7 +148,6 @@
   height: 2px;
 }
 
-
 .section-c {
   width: 100%;
   text-align: center;
@@ -205,4 +204,10 @@
   margin-right: auto;
   background-color: #343940;
   height: 250px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
