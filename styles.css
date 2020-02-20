@@ -240,6 +240,18 @@
   border: 4px solid #d3d3d3;
 }
 
+.s-t-c {
+  width: 60%;
+  font-size: 13px;
+}
+
 .section-e {
   text-align: center;
+  border-bottom: 1px solid #d3d3d3;
 }
+
+.donation-thumbnail {
+  width: 300px;
+  height: auto;
+}
+
