@@ -301,3 +301,39 @@
   width: 100%;
   background-color: #f4f4f4;
 }
+
+.ticket-select {
+  padding: 8px;
+  border: 1px solid #d3d3d3;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.ticket-type {
+  width: 80%;
+  background: repeating-linear-gradient(-45deg, white 0, white 10px, #ec5241 10px, #ec5241 20px, white 20px, white 30px, blue 30px, blue 40px);
+  padding: 5px;
+}
+
+.ticket-table {
+  width: 100%;
+}
+
+.ticket-table td,
+.ticket-table th {
+  padding: 7px;
+  border: 1px solid #d3d3d3;
+}
+
+.low-size {
+  font-size: 13px;
+}
+
+.diamond {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #ec5241;
+}
