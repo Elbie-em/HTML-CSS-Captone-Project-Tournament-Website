@@ -247,7 +247,12 @@
 
 .section-e {
   text-align: center;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 3px solid #f4f2f2;
+  border-top: 3px solid #f4f2f2;
+}
+
+.section-f {
+  text-align: center;
 }
 
 .donation-thumbnail {
@@ -255,3 +260,38 @@
   height: auto;
 }
 
+.about-footer {
+  width: 100%;
+  background-color: #343940;
+}
+
+.section-f p {
+  font-size: 13px;
+}
+
+.champions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-gap: 20px;
+}
+
+.champion-info {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255, 102, 51, 0.5) 10%, rgb(236, 82, 65) 100%), url("https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fchopchat.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1015794552.jpeg&c=sc&w=736&h=485") -200px -40px;
+}
+
+.champion-info-b {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255, 102, 51, 0.5) 10%, rgb(236, 82, 65) 100%), url("https://s3-eu-west-1.amazonaws.com/crash.net/golfmagic.com/styles/scale_768/s3/field/image/2020-01-06T015224Z_689951628_NOCID_RTRMADP_3_PGA-SENTRY-TOURNAMENT-OF-CHAMPIONS-FINAL-ROUND%20%282%29.JPG?itok=i4YAWPzO") -200px -40px;
+}
+
+.champion-info,
+.champion-info-b {
+  text-align: center;
+  color: #fff;
+}
