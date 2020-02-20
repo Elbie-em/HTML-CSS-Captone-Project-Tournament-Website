@@ -232,3 +232,14 @@
   font-size: 13px;
   margin-left: 20px;
 }
+
+.tournament-description {
+  font-size: 13px;
+  background-color: #fff;
+  width: 60%;
+  border: 4px solid #d3d3d3;
+}
+
+.section-e {
+  text-align: center;
+}
