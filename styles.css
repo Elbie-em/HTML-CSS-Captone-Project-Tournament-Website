@@ -16,6 +16,7 @@
   height: 100px;
   background-color: #fff;
   font-family: 'Lato', sans-serif;
+  overflow: hidden;
 }
 
 .n-b-inner ul li {
@@ -104,7 +105,39 @@
 
 .section-b {
   width: 100%;
-  height: 200px;
-  background-image: url("https://thumbs.dreamstime.com/b/green-grass-seamless-pattern-background-lawn-nature-abstract-endless-golf-field-texture-symbol-summer-plant-eco-natural-growth-159075851.jpg");
-  
+  height: 450px;
+  background-image: url("https://www.allingolfer.com/content/images/thumbs/0002591_3-dozen-titleist-velocity-bulk-golf-balls-bright-orange_500.jpeg");
+  background-size: 100%;
+  text-align: center;
+}
+
+.tournament-details {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-self: center;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #343940;
+  width: 100%;
+  height: 230px;
+  opacity: 0.8;
+  margin-right: 2px;
+}
+
+.detail-card i {
+  color: #fff;
+}
+
+.detail-card p {
+  font-size: 1vw;
+}
+
+.small-dv {
+  width: 40px;
+  background-color: white;
+  height: 2px;
 }
