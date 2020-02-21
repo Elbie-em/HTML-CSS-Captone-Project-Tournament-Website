@@ -1,4 +1,4 @@
-# HTML-CSS-Captone-Project-Tournament-Website
+# HTML & CSS Captone Project Tournament Website
 > Project is based on an online website for an imaginative golf tournament
 
 **Desktop**
@@ -20,7 +20,7 @@
 - Bootstrap 4
 
 ## Presentation
-Click [here]() for presentation video
+Click [here](https://www.loom.com/share/53ea23bc856243d495ea06e3cbd06175) for presentation video
 
 ## Live Demo
 
@@ -44,8 +44,6 @@ Click [here]() for presentation video
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-
-Feel free to check this link --> [here](https://github.com/Elbie-em/Using-Bootstrap-The-News-Week-Hompage-Clone-/issues) for issues.
 
 ## Show your support
 
