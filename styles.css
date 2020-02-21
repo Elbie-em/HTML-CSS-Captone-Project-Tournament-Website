@@ -327,13 +327,40 @@
   border: 1px solid #d3d3d3;
 }
 
+.dinner-table {
+  width: 80%;
+}
+
+.dinner-table td,
+.dinner-table th {
+  padding: 7px;
+}
+
 .low-size {
   font-size: 13px;
 }
 
+.ninety {
+  margin-top: 18px;
+  transform: rotate(315deg);
+}
+
 .diamond {
   position: relative;
-  width: 30px;
-  height: 30px;
+  top: 23px;
+  width: 50px;
+  height: 50px;
   background-color: #ec5241;
+  transform: rotate(45deg);
+}
+
+.submit-button {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ec5241;
+  color: #fff;
+  border: none;
 }
