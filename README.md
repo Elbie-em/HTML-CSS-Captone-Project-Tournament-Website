@@ -20,17 +20,17 @@
 - Bootstrap 4
 
 ## Presentation
-Click [here]() for presentation
+Click [here]() for presentation video
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Elbie-em/HTML-CSS-Captone-Project-Tournament-Website/dd77266ffd1ffa756ddfdd7051ebf7e863fd7c49/index.html)
 
 
 ## Getting Started
 
 **This is a static page and was made using  CSS & HTML, you don't need .**
-**anything to start up this page, is already published in a public repository so you can check the final result. For a better understanding of the code read about FlexBox,Grid, Media Queries and Floats.**
+**anything to start up this page, is already published in a public repository so you can check the final result. For a better understanding of the code read about Bootstrap, <FlexBox,Grid, Media Queries and Floats.**
 
 
 ## Author
