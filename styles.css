@@ -51,6 +51,19 @@
   background-repeat: no-repeat;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.unde:hover {
+  text-decoration: underline;
+}
+
+#menu-d {
+  margin-top: 5px;
+  display: none;
+}
+
 .blank-space {
   width: 100%;
   height: 80px;
@@ -372,10 +385,18 @@
   font-size: 80px;
 }
 
+.internal {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .nav-top,
   .nav-bottom {
     display: none;
+  }
+
+  #menu-d {
+    display: unset;
   }
 
   .info-container {
@@ -455,4 +476,7 @@
     font-size: 11px;
   }
 
+  .internal {
+    display: unset;
+  }
 }
