@@ -29,8 +29,7 @@ Click [here](https://www.loom.com/share/53ea23bc856243d495ea06e3cbd06175) for pr
 
 ## Getting Started
 
-**This is a static page and was made using  CSS & HTML, you don't need .**
-**anything to start up this page, is already published in a public repository so you can check the final result. For a better understanding of the code read about Bootstrap, <FlexBox,Grid, Media Queries and Floats.**
+**This is a static page and was made using CSS & HTML, you don't need anything complex to start up this page.It is already published in a public repository so you can check the final result by clicking on the live demo. You could also clone the repo can open the index.html file in any browser and traverse through the website to see the construct in action. For a better understanding of the code read about Box model, FlexBox,Grid, Media Queries and Floats and basic Bootstrap.**
 
 
 ## Author
@@ -49,6 +48,11 @@ Contributions, issues and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+You can access all the design info (layouts) [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+Design by [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
