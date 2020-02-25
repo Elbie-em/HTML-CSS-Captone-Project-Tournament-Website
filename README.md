@@ -24,7 +24,7 @@ Click [here](https://www.loom.com/share/53ea23bc856243d495ea06e3cbd06175) for pr
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Elbie-em/HTML-CSS-Captone-Project-Tournament-Website/dd77266ffd1ffa756ddfdd7051ebf7e863fd7c49/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Elbie-em/HTML-CSS-Captone-Project-Tournament-Website/3846c4891a53a7c014c0205ecab63e67c55727d2/index.html)
 
 
 ## Getting Started
