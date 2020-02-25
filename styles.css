@@ -1,6 +1,6 @@
 .nav-top {
   width: 100%;
-  height: 24px;
+  height: 30px;
   background-color: #343940;
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -40,7 +40,7 @@
 }
 
 .special {
-  border: 3px solid #ec5241;
+  border: 3px solid#ec5242;
   padding: 10px;
 }
 
@@ -59,7 +59,9 @@
   text-decoration: underline;
 }
 
-#menu-d {
+#menu-d-a,
+#menu-d-b,
+#menu-d-c {
   margin-top: 5px;
   display: none;
 }
@@ -77,12 +79,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-.color-cp {
-  color: #ec5241;
-}
-
-#active {
-  color: #ec5241;
+.color-cp,
+#active-a,
+#active-b {
+  color: #ec5242;
 }
 
 .color-cp-a {
@@ -168,7 +168,7 @@
 
 .small-dv-o {
   width: 40px;
-  background-color: #ec5241;
+  background-color: #ec5242;
   height: 2px;
 }
 
@@ -329,7 +329,7 @@
 
 .ticket-type {
   width: 80%;
-  background: repeating-linear-gradient(-45deg, white 0, white 10px, #ec5241 10px, #ec5241 20px, white 20px, white 30px, blue 30px, blue 40px);
+  background: repeating-linear-gradient(-45deg, white 0, white 10px, #ec5242 10px, #ec5242 20px, white 20px, white 30px, blue 30px, blue 40px);
   padding: 5px;
 }
 
@@ -366,7 +366,7 @@
   top: 23px;
   width: 50px;
   height: 50px;
-  background-color: #ec5241;
+  background-color: #ec5242;
   transform: rotate(45deg);
 }
 
@@ -376,7 +376,7 @@
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #ec5241;
+  background-color: #ec5242;
   color: #fff;
   border: none;
 }
@@ -395,7 +395,9 @@
     display: none;
   }
 
-  #menu-d {
+  #menu-d-a,
+  #menu-d-b,
+  #menu-d-c {
     display: unset;
   }
 
