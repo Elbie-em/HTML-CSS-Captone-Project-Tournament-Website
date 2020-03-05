@@ -1,0 +1,496 @@
+.nav-top {
+  width: 100%;
+  height: 30px;
+  background-color: #343940;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-top ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+.n-b-inner ul li {
+  display: inline;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.n-b-inner ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.n-b-inner ul li a:hover {
+  color: #343940;
+}
+
+.nav-logo {
+  width: 120px;
+  height: auto;
+}
+
+.special {
+  border: 3px solid#ec5242;
+  padding: 10px;
+}
+
+.section-a {
+  width: 100%;
+  background: linear-gradient(rgba(238, 238, 238, 0.8) 0%, rgb(247, 247, 247) 70%), url("https://utopiaballito.co.za/wp-content/uploads/Featured-Image-01.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.unde:hover {
+  text-decoration: underline;
+}
+
+#menu-d-a,
+#menu-d-b,
+#menu-d-c {
+  margin-top: 5px;
+  display: none;
+}
+
+.blank-space {
+  width: 100%;
+  height: 80px;
+}
+
+.site-font-a {
+  font-family: 'Lato', sans-serif;
+}
+
+.site-font-b {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.color-cp,
+#active-a,
+#active-b {
+  color: #ec5242;
+}
+
+.color-cp-a {
+  color: #343940;
+}
+
+.info-container {
+  margin-left: 120px;
+  width: 70%;
+}
+
+.tournament-qoute {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.tournament-title {
+  font-weight: 900;
+  font-size: 60px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("data:image/jpeg;base64,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");
+}
+
+.text-info {
+  width: 85%;
+  font-size: 60%;
+  border: 4px solid #fff;
+}
+
+.dates {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section-b {
+  width: 100%;
+  background-image: url("https://www.allingolfer.com/content/images/thumbs/0002591_3-dozen-titleist-velocity-bulk-golf-balls-bright-orange_500.jpeg");
+  background-size: 100%;
+  text-align: center;
+}
+
+.tournament-details {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #343940;
+  width: 250px;
+  height: 230px;
+  opacity: 0.8;
+  margin-right: 2px;
+}
+
+.detail-card i {
+  color: #fff;
+}
+
+.detail-card p {
+  font-size: 65%;
+}
+
+.icon-mg {
+  margin-top: 10px;
+}
+
+.small-dv {
+  width: 40px;
+  background-color: white;
+  height: 2px;
+}
+
+.small-dv-o {
+  width: 40px;
+  background-color: #ec5242;
+  height: 2px;
+}
+
+.section-c {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest-player {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest-player-card {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  border: 1px solid #fff;
+}
+
+.player-thumbnail {
+  width: 120px;
+  height: 100px;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+}
+
+.p-brief {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.p-details {
+  font-size: 14px;
+}
+
+.golf-ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.section-d {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #343940;
+  height: 250px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.footer-summary {
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.tournament-description {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+  background-color: #fff;
+  width: 60%;
+  border: 4px solid #d3d3d3;
+}
+
+.s-t-c {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 13px;
+}
+
+.section-e {
+  text-align: center;
+  border-bottom: 3px solid #f4f2f2;
+  border-top: 3px solid #f4f2f2;
+}
+
+.section-f {
+  text-align: center;
+}
+
+.donation-thumbnail {
+  width: 300px;
+  height: auto;
+}
+
+.about-footer {
+  width: 100%;
+  background-color: #343940;
+}
+
+.section-f p {
+  font-size: 13px;
+}
+
+.champions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-gap: 20px;
+}
+
+.champion-info {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255, 102, 51, 0.5) 10%, rgb(236, 82, 65) 100%), url("https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fchopchat.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1015794552.jpeg&c=sc&w=736&h=485") -200px -40px;
+}
+
+.champion-info-b {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255, 102, 51, 0.5) 10%, rgb(236, 82, 65) 100%), url("https://s3-eu-west-1.amazonaws.com/crash.net/golfmagic.com/styles/scale_768/s3/field/image/2020-01-06T015224Z_689951628_NOCID_RTRMADP_3_PGA-SENTRY-TOURNAMENT-OF-CHAMPIONS-FINAL-ROUND%20%282%29.JPG?itok=i4YAWPzO") -200px -40px;
+}
+
+.champion-info,
+.champion-info-b {
+  text-align: center;
+  color: #fff;
+}
+
+.ticket-section-a {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.ticket-select {
+  padding: 8px;
+  border: 1px solid #d3d3d3;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.ticket-type {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: repeating-linear-gradient(-45deg, white 0, white 10px, #ec5242 10px, #ec5242 20px, white 20px, white 30px, blue 30px, blue 40px);
+  padding: 5px;
+}
+
+.ticket-table {
+  width: 100%;
+}
+
+.ticket-table td,
+.ticket-table th {
+  padding: 7px;
+  border: 1px solid #d3d3d3;
+}
+
+.dinner-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.dinner-table td,
+.dinner-table th {
+  padding: 7px;
+}
+
+.low-size {
+  font-size: 13px;
+}
+
+.ninety {
+  margin-top: 18px;
+  transform: rotate(315deg);
+}
+
+.diamond {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 23px;
+  width: 50px;
+  height: 50px;
+  background-color: #ec5242;
+  transform: rotate(45deg);
+}
+
+.submit-button {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ec5242;
+  color: #fff;
+  border: none;
+}
+
+.sponser-icon {
+  font-size: 80px;
+}
+
+.internal {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-top,
+  .nav-bottom {
+    display: none;
+  }
+
+  #menu-d-a,
+  #menu-d-b,
+  #menu-d-c {
+    display: unset;
+  }
+
+  .info-container {
+    margin-left: 90px;
+    width: 80%;
+  }
+
+  .tournament-title {
+    font-size: 45px;
+  }
+
+  .dates {
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .location {
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .tournament-details {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .icon-mg {
+    margin-top: 0;
+    margin-right: 5px;
+  }
+
+  .detail-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #343940;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+  }
+
+  .detail-card p {
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .guest-player {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .guest-player-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #fff;
+  }
+
+  .section-d {
+    height: 200px;
+  }
+
+  .sponser-icon {
+    font-size: 30px;
+  }
+
+  .champions {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row-gap: 20px;
+  }
+
+  .footer-summary {
+    font-size: 11px;
+  }
+
+  .internal {
+    display: unset;
+  }
+}

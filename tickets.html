@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <title>golfHof.com/tickets.html</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-top">
+        <ul class="float-right">
+          <li><i class="fab fa-facebook-f fa-sm"></i></li>
+          <li><i class="fab fa-twitter fa-sm"></i></li>
+          <li>English</li>
+          <li>My Page</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+      <div class="nav-bottom">
+        <div class="container d-flex flex-row justify-content-between n-b-inner">
+          <img class="nav-logo" src="assets/tournament_logo.png" alt="tournament_logo">
+          <ul class="float-right mt-4 text-nowrap">
+            <li><a class="color-cp" href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a id="active-b" href="tickets.html">Tickets</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">News</a></li>
+            <li class="special"><a href="#">Media</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="ticket-section-a text-center">
+      <div class="blank-space p-3">
+        <i class="fas fa-bars fa-lg float-left pointer" id="menu-d-c"></i>
+        <div class="float-right">
+          <a href="index.html"><i class="fas fa-home fa-lg color-cp-a"></i></a>
+          <i class="fas fa-angle-right fa-lg color-cp"></i>
+          <a href="about.html" class="color-cp-a site-font-a">About</a>
+          <i class="fas fa-angle-right fa-lg color-cp"></i>
+          <span class="color-cp-a site-font-a">Guest players</span>
+        </div>
+      </div>
+      <h4 class="site-font-a font-weight-bold pt-3 color-cp-a">Select Tickets</h4>
+      <hr class="small-dv-o">
+      <div class="ticket-select">
+        <span class="color-cp site-font-a">&#9830; STEP 1 </span>
+        <span class="site-font-a color-cp-a pointer">&ensp;Please Select your tournament ticket</span>
+      </div>
+      <div class="ticket-type mt-3 d-block mb-5">
+        <table class="ticket-table bg-white border table-borded">
+          <thead class="site-font-a color-cp-a font-weight-lighter">
+            <tr class="bg-light">
+              <th class="low-size">Ticket</th>
+              <th class="low-size">1-Day-Ticket</th>
+              <th class="low-size" colspan="2">2-Day-Ticket</th>
+              <th class="low-size">Dinner Ticket</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td class="low-size">Date</td>
+            <td class="low-size">10.Jul(Fri)</td>
+            <td class="low-size">11.Jul(Sat)</td>
+            <td class="low-size">10-11.Jul(Fri-Sat)</td>
+            <td class="low-size">12.Jul(Sat)</td>
+            </tr>
+            <tr>
+              <td class="low-size">Normal</td>
+              <td class="color-cp">$50 <br><input class="pointer" type="radio" name="oneticket1" id="oneticket1"></td>
+              <td class="color-cp">$50 <br><input class="pointer" type="radio" name="oneticket2" id="oneticket2"></td>
+              <td class="color-cp">$90 <br><input class="pointer" type="radio" name="oneticket3" id="oneticket3"></td>
+              <td class="color-cp">$150 <br><input class="pointer" type="radio" name="oneticket4" id="oneticket4"></td>
+            </tr>
+            <tr>
+              <td class="low-size">VIP</td>
+              <td class="color-cp">$100 <br><input class="pointer" type="radio" name="oneticket5" id="oneticket5"></td>
+              <td class="color-cp">$100 <br><input class="pointer" type="radio" name="oneticket6" id="oneticket6"></td>
+              <td class="color-cp">$180 <br><input class="pointer" type="radio" name="oneticket7" id="oneticket7"></td>
+              <td class="color-cp">$250 <br><input class="pointer" type="radio" name="oneticket8" id="oneticket8"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="diamond">
+        <i class="fas fa-angle-down fa-lg text-white ninety"></i>
+      </div>
+    </section>
+    <section class="text-center mt-5">
+      <h4 class="site-font-a font-weight-bold pt-3 color-cp-a">Select Your Dinner</h4>
+      <hr class="small-dv-o">
+      <div class="ticket-select">
+        <span class="color-cp site-font-a">&#9830; STEP 2 </span>
+        <span class="site-font-a color-cp-a pointer">&ensp;Please Select your menu's</span>
+      </div>
+      <table class="dinner-table mt-5 border">
+        <thead>
+          <tr class="bg-light">
+            <td class="low-size" colspan="4">Dinner Menu's</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="site-font-a low-size color-cp-a">menu 1 &ensp;<input class="pointer" type="radio" name="menu1" id="menu1"></td>
+            <td class="site-font-a low-size color-cp-a">menu 2 &ensp;<input class="pointer" type="radio" name="menu2" id="menu2"></td>
+            <td class="site-font-a low-size color-cp-a">menu 3 &ensp;<input class="pointer" type="radio" name="menu3" id="menu3"></td>
+            <td class="site-font-a low-size color-cp-a">menu 4 &ensp;<input class="pointer" type="radio" name="menu4" id="menu4"></td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="dinner-table mt-5 border">
+        <thead>
+          <tr class="bg-light">
+            <td class="low-size" colspan="4">Prize Giving Dinner Menu's</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="site-font-a low-size color-cp-a">menu 1 &ensp;<input class="pointer" type="radio" name="menu5" id="menu5"></td>
+            <td class="site-font-a low-size color-cp-a">menu 2 &ensp;<input class="pointer" type="radio" name="menu6" id="menu6"></td>
+            <td class="site-font-a low-size color-cp-a">menu 3 &ensp;<input class="pointer" type="radio" name="menu7" id="menu7"></td>
+            <td class="site-font-a low-size color-cp-a">menu 3 &ensp;<input class="pointer" type="radio" name="menu8" id="menu8"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="submit-button site-font-a mt-5 pointer" type="submit">Submit Choices</button>
+    </section>
+    <div class="blank-space">
+    </div>
+  </main>
+  <footer class="about-footer p-3">
+    <div class="container footer-div">
+      <img class="nav-logo" src="assets/tournament_logo.png" alt="tournmentlogo">
+      <p class="footer-summary text-white"><b>2020 Hall of Fame Championship, Some right deserved</b><br><br>
+        Success in this game depends less on strength of body than <br> strength of mind and character
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+</html>
